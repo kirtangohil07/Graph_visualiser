@@ -20,7 +20,7 @@ Graph Visualizer is a web application built with React and TypeScript that allow
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/kirtangohil07/Graph_visualiser
 ```
 
 2. Navigate to the project directory:
