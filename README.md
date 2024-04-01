@@ -1,4 +1,4 @@
-```markdown
+
 # Graph Visualizer
 
 Graph Visualizer is a web application built with React and TypeScript that allows users to visualize graphs and perform various operations such as adding vertices, adding edges, removing objects, running algorithms like Breadth First Search, Depth First Search, Dijkstra's algorithm, and finding the Minimum Spanning Tree.
