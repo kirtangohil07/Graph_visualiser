@@ -56,9 +56,5 @@ npm start
 
 Contributions are welcome! If you'd like to contribute to Graph Visualizer, feel free to submit a pull request or open an issue on GitHub.
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
-
-This README provides an overview of the project, its features, installation instructions, usage guidelines, technologies used, contribution guidelines, and licensing information. Feel free to adjust it according to your project's specific details and requirements.
+This README provides an overview of the project, its features, installation instructions, usage guidelines, technologies used, contribution guidelines. Feel free to adjust it according to your project's specific details and requirements.

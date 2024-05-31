@@ -63,11 +63,7 @@ function GraphVisualisation() {
       setCurrentEvent("runDijkstrasEvent");
       setMessage("Select starting vertex");
     },
-    "Minimum Spanning Tree": () => {
-      refreshSetActions();
-      setCurrentEvent("runPrimsEvent");
-      setMessage('Select the starting vertex')
-    },
+  
   };
 
   useEffect(() => {
@@ -218,7 +214,7 @@ function GraphVisualisation() {
 
     combinedArrays.forEach((item: VertexOrEdge, index: number) => {
       setTimeout(() => {
-        if (currentEvent === "runBFSEvent" || currentEvent === "runDFSEvent" || currentEvent === "runDijkstrasEvent") {
+        if (currentEvent === "runBFSEvent" || currentEvent === "runDFSEvent" || currentEvent === "runDijkstrasEvent" ) {
           if (item instanceof Vertex) {
             document.getElementById(item.value)?.classList.add("bg-blue-400");
             document
@@ -512,7 +508,7 @@ function GraphVisualisation() {
                       onClick={() => {
                         algorithms[algorithm]();
                       }}
-                      className="bg-inherit hover:bg-zinc-800 rounded-lg p-2"
+                      className="bg-inherit text-white hover:bg-zinc-800 rounded-lg p-2"
                     >
                       {algorithm}
                     </li>
